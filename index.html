@@ -3,65 +3,162 @@
 <head>
     <meta charset="UTF-8">
     <title>Veterinary Clinic</title>
+    <style>
+        body {
+            background-color: #e0f2f1;
+            color: #333333;
+        }
+
+        header, nav, footer {
+            background-color: #ffffff;
+            color: #333333;
+        }
+
+        h1, h2, h3 {
+            color: #2980b9;
+        }
+
+        a {
+            color: #2980b9;
+        }
+
+        a:hover {
+            color: #007bff;
+        }
+
+        .jumbotron p {
+            color: #666666;
+        }
+        .website-background {
+            background-color: #e0f2f1;
+        }
+        #services ul li,
+        #clinic-description p,
+        #team p {
+            color: #666666;
+        }
+
+        .rounded-rectangle {
+            background-color: white;
+            padding: 15px;
+            border-radius: 12px;
+        }
+        html {
+            scrollbar-width: none;
+            -ms-overflow-style: none;
+        }
+
+        html::-webkit-scrollbar {
+            width: 0px;
+        }
+    </style>
 </head>
 <body>
 
-<header>
+<header class="website-background" style="text-align: center;">
     <h1>Veterinary Clinic</h1>
-    <div style="text-align: center;">
-        <img src="https://st2.depositphotos.com/4265001/8224/v/450/depositphotos_82243328-Veterinary-Clinic-logo.jpg" alt="Clinic Logo">
+</header>
+
+<header style="display: flex; justify-content: space-between; background-color: #e0f2f1; padding: 15px;">
+    <nav style="background-color: #e0f2f1; padding: 0px;">
+        <ul style="display: flex; list-style: none; padding: 0; margin: 0;">
+            <li style="padding: 10px 20px;"><a href="#home">Home Page</a></li>
+            <li style="padding: 10px 20px;"><a href="#price-list">Price List</a></li>
+            <li style="padding: 10px 20px;"><a href="#graphics">Graphics</a></li>
+            <li style="padding: 10px 20px;"><a href="#registration-form">Registration Form</a></li>
+        </ul>
+    </nav>
+    <div id="clock">
+        <p id="current-time">Current Time: 12:00 PM - 15.04.2023</p>
     </div>
 </header>
 
-<nav>
-    <ul>
-        <li><a href="#home">Home Page</a></li>
-        <li><a href="#price-list">Price List</a></li>
-        <li><a href="#graphics">Graphics</a></li>
-        <li><a href="#registration-form">Registration Form</a></li>
-    </ul>
-</nav>
-
-<div id="clock">
-    <p id="current-time">Current Time: 12:00 PM - 15.04.2023</p>
-</div>
-
-<div class="jumbotron">
+<div class="rounded-rectangle" style="padding: 20px; margin-top: 20px; margin-left: 20px; margin-right: 20px">
     <h2 class = "display-4">Welcome to Our Clinic</h2>
     <hr class="my-4">
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Neque egestas congue quisque egestas diam in arcu cursus euismod. Augue lacus viverra vitae congue eu consequat. Dignissim suspendisse in est ante in nibh mauris. Dignissim diam quis enim lobortis. Ut faucibus pulvinar elementum integer enim. Et egestas quis ipsum suspendisse. Et pharetra pharetra massa massa ultricies mi quis. Sed id semper risus in. Arcu felis bibendum ut tristique et. Id interdum velit laoreet id donec.</p>
+    <p>  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Neque egestas congue quisque egestas diam in arcu cursus euismod. Augue lacus viverra vitae congue eu consequat. Dignissim suspendisse in est ante in nibh mauris. Dignissim diam quis enim lobortis. Ut faucibus pulvinar elementum integer enim. Et egestas quis ipsum suspendisse. Et pharetra pharetra massa massa ultricies mi quis. Sed id semper risus in. Arcu felis bibendum ut tristique et. Id interdum velit laoreet id donec. Ut faucibus pulvinar elementum integer enim neque volutpat. Scelerisque viverra mauris in aliquam sem fringilla. Euismod lacinia at quis risus sed vulputate odio. Amet risus nullam eget felis. Ornare suspendisse sed nisi lacus sed viverra tellus in hac. Tristique risus nec feugiat in fermentum posuere urna nec tincidunt. Ridiculus mus mauris vitae ultricies leo integer malesuada nunc vel. Scelerisque felis imperdiet proin fermentum leo vel orci. Quam elementum pulvinar etiam non quam lacus suspendisse faucibus interdum. Ultrices neque ornare aenean euismod. Blandit turpis cursus in hac habitasse platea dictumst quisque. Donec pretium vulputate sapien nec sagittis aliquam malesuada. Tristique nulla aliquet enim tortor at auctor. Diam maecenas ultricies mi eget mauris pharetra et ultrices neque. Ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at. Felis eget velit aliquet sagittis. Quisque sagittis purus sit amet volutpat consequat. Risus nullam eget felis eget nunc lobortis. In nibh mauris cursus mattis. Purus non enim praesent elementum facilisis leo. Lectus mauris ultrices eros in cursus turpis. Tincidunt praesent semper feugiat nibh sed pulvinar proin gravida hendrerit. Massa massa ultricies mi quis hendrerit dolor. Rutrum quisque non tellus orci. Ac turpis egestas maecenas pharetra. Faucibus scelerisque eleifend donec pretium. Pharetra diam sit amet nisl suscipit adipiscing. Magna fringilla urna porttitor rhoncus dolor. Ac auctor augue mauris augue. Pulvinar sapien et ligula ullamcorper. Urna nec tincidunt praesent semper feugiat nibh sed.</p>
+    </div>
+<div>
+    <div>
+<div style="height: 40px;"></div>
+    </div>
+</div>
 </div>
 
-<section id="services">
-    <h2>Our Services</h2>
-    <ul>
-        <li>Check-ups</li>
-        <li>Vaccinations</li>
-        <li>Surgery</li>
-        <li>Dental care</li>
+<div class="rounded-rectangle" style="margin-left: 20px; margin-right: 20px">
 
-    </ul>
-</section>
+    <section  id="services" style="padding: 10px; ">
+        <h2>Our Services</h2>
+        <hr class="my-4">
 
-<section id="clinic-description">
-    <h2>About Us</h2>
-    <p>A iaculis at erat pellentesque adipiscing commodo elit. Orci porta non pulvinar neque laoreet. Phasellus egestas tellus rutrum tellus pellentesque eu tincidunt tortor. Massa eget egestas purus viverra. Dignissim diam quis enim lobortis scelerisque. Urna nec tincidunt praesent semper feugiat nibh sed pulvinar. Eu ultrices vitae auctor eu augue ut lectus. Vel quam elementum pulvinar etiam non quam lacus. Nisl vel pretium lectus quam id leo in vitae. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus. Malesuada proin libero nunc consequat interdum varius sit amet mattis. Nunc sed velit dignissim sodales ut eu sem. Morbi tincidunt augue interdum velit euismod in pellentesque. Cras ornare arcu dui vivamus arcu felis bibendum ut tristique. Imperdiet nulla malesuada pellentesque elit eget gravida cum sociis. Condimentum id venenatis a condimentum vitae sapien. Sit amet luctus venenatis lectus magna fringilla urna porttitor rhoncus. Donec et odio pellentesque diam volutpat commodo sed.
-        Sed euismod nisi porta lorem mollis aliquam ut porttitor. Ultrices dui sapien eget mi. Tristique risus nec feugiat in fermentum posuere urna nec tincidunt. Viverra accumsan in nisl nisi scelerisque eu ultrices vitae auctor. Etiam erat velit scelerisque in. Imperdiet nulla malesuada pellentesque elit eget gravida. Id leo in vitae turpis massa sed elementum. Vestibulum morbi blandit cursus risus at ultrices mi tempus. Vitae tortor condimentum lacinia quis vel. Dictum fusce ut placerat orci nulla pellentesque dignissim. Pulvinar etiam non quam lacus suspendisse faucibus. Magna eget est lorem ipsum dolor sit amet consectetur adipiscing.</p>
-</section>
+        <p>Vitae et leo duis ut diam quam nulla porttitor. Et netus et malesuada fames ac turpis egestas integer eget. Sed faucibus turpis in eu mi. Nullam eget felis eget nunc lobortis mattis aliquam faucibus purus. Hendrerit dolor magna eget est. Orci dapibus ultrices in iaculis nunc sed augue lacus viverra. Quis commodo odio aenean sed. Sagittis id consectetur purus ut faucibus pulvinar elementum. Quam quisque id diam vel quam elementum. In tellus integer feugiat scelerisque varius morbi. Magnis dis parturient montes nascetur. Facilisis volutpat est velit egestas dui id ornare. Sollicitudin aliquam ultrices sagittis orci a scelerisque purus semper eget. Sapien nec sagittis aliquam malesuada bibendum arcu. Tristique et egestas quis ipsum suspendisse. Nunc congue nisi vitae suscipit tellus mauris a diam. Montes nascetur ridiculus mus mauris vitae ultricies leo integer malesuada. Tempor id eu nisl nunc.</p>
+        <ul>
+            <li>Check-ups</li>
+            <li>Vaccinations</li>
+            <li>Surgery</li>
+            <li>Dental care</li>
+        </ul>
+    </section>
 
-<section id="team">
-    <h2>Meet Our Team</h2>
-    <p>Pulvinar sapien et ligula ullamcorper malesuada proin libero nunc consequat. Non sodales neque sodales ut etiam sit. Vitae tempus quam pellentesque nec nam aliquam sem et tortor. Amet risus nullam eget felis. Aliquam malesuada bibendum arcu vitae elementum curabitur vitae nunc sed. Facilisi cras fermentum odio eu feugiat pretium nibh ipsum consequat. Tempor orci dapibus ultrices in iaculis nunc. Eget dolor morbi non arcu risus quis varius quam quisque. Leo vel fringilla est ullamcorper eget nulla facilisi etiam dignissim. Nulla facilisi etiam dignissim diam quis enim lobortis. Urna nec tincidunt praesent semper feugiat nibh sed pulvinar. Ipsum dolor sit amet consectetur adipiscing elit duis tristique sollicitudin. Ac turpis egestas maecenas pharetra convallis posuere morbi leo urna.</p>
-</section>
+</div>
+<div style="height: 40px;"></div>
+</div>
+</div>
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4840.751310049297!2d16.915711673426923!3d52.402548979797546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470452e1dd7fb203%3A0x61f11e6400d6d6c0!2sAvenida%20Poznan%2C%20Pozna%C5%84!5e0!3m2!1sen!2spl!4v1647316078486!5m2!1sen!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+<div class="rounded-rectangle" style="margin-left: 20px; margin-right: 20px">
 
-<footer>
+    <section id="clinic-description" style="padding: 10px;">
+        <h2>About Us</h2>
+        <hr class="my-4">
+        <p>A iaculis at erat pellentesque adipiscing commodo elit. Orci porta non pulvinar neque laoreet. Phasellus egestas tellus rutrum tellus pellentesque eu tincidunt tortor. Massa eget egestas purus viverra. Dignissim diam quis enim lobortis scelerisque. Urna nec tincidunt praesent semper feugiat nibh sed pulvinar. Eu ultrices vitae auctor eu augue ut lectus. Vel quam elementum pulvinar etiam non quam lacus. Nisl vel pretium lectus quam id leo in vitae. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus. Malesuada proin libero nunc consequat interdum varius sit amet mattis. Nunc sed velit dignissim sodales ut eu sem. Morbi tincidunt augue interdum velit euismod in pellentesque. Cras ornare arcu dui vivamus arcu felis bibendum ut tristique. Imperdiet nulla malesuada pellentesque elit eget gravida cum sociis. Condimentum id venenatis a condimentum vitae sapien. Sit amet luctus venenatis lectus magna fringilla urna porttitor rhoncus. Donec et odio pellentesque diam volutpat commodo sed.
+            Sed euismod nisi porta lorem mollis aliquam ut porttitor. Ultrices dui sapien eget mi. Tristique risus nec feugiat in fermentum posuere urna nec tincidunt. Viverra accumsan in nisl nisi scelerisque eu ultrices vitae auctor. Etiam erat velit scelerisque in. Imperdiet nulla malesuada pellentesque elit eget gravida. Id leo in vitae turpis massa sed elementum. Vestibulum morbi blandit cursus risus at ultrices mi tempus. Vitae tortor condimentum lacinia quis vel. Dictum fusce ut placerat orci nulla pellentesque dignissim. Pulvinar etiam non quam lacus suspendisse faucibus. Magna eget est lorem ipsum dolor sit amet consectetur adipiscing.</p>
+
+    </section>
+</div>
+<div style="height: 40px;"></div>
+</div>
+</div>
+
+<div class="rounded-rectangle" style="margin-left: 20px; margin-right: 20px">
+
+    <section id="team" style="padding: 10px;">
+        <h2>Meet Our Team</h2>
+        <hr class="my-4">
+        <p>Pulvinar sapien et ligula ullamcorper malesuada proin libero nunc consequat. Non sodales neque sodales ut etiam sit. Vitae tempus quam pellentesque nec nam aliquam sem et tortor. Amet risus nullam eget felis. Aliquam malesuada bibendum arcu vitae elementum curabitur vitae nunc sed. Facilisi cras fermentum odio eu feugiat pretium nibh ipsum consequat. Tempor orci dapibus ultrices in iaculis nunc. Eget dolor morbi non arcu risus quis varius quam quisque. Leo vel fringilla est ullamcorper eget nulla facilisi etiam dignissim. Nulla facilisi etiam dignissim diam quis enim lobortis. Consectetur adipiscing elit duis tristique sollicitudin nibh sit amet. Habitant morbi tristique senectus et netus et. Morbi tempus iaculis urna id volutpat lacus laoreet non. Laoreet suspendisse interdum consectetur libero. Facilisis magna etiam tempor orci eu lobortis elementum nibh. Purus non enim praesent elementum facilisis leo. Dapibus ultrices in iaculis nunc sed augue lacus viverra. Cursus in hac habitasse platea dictumst quisque sagittis purus sit. Consequat ac felis donec et. Sem nulla pharetra diam sit amet nisl suscipit adipiscing bibendum. Et tortor consequat id porta nibh venenatis. Pellentesque diam volutpat commodo sed egestas egestas. Fermentum et sollicitudin ac orci phasellus egestas tellus rutrum. Diam vulputate ut pharetra sit amet aliquam id. Nunc id cursus metus aliquam eleifend. Urna nec tincidunt praesent semper feugiat nibh sed pulvinar. Ipsum dolor sit amet consectetur adipiscing elit duis tristique sollicitudin. Ac turpis egestas maecenas pharetra convallis posuere morbi leo urna.</p>
+
+    </section>
+
+</div>
+</div>
+<div style="height: 40px;"></div>
+</div>
+</div>
+
+<div class="rounded-rectangle" style="margin-left: 20px; margin-right: 20px">
+
+<iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4840.751310049297!2d16.915711673426923!3d52.402548979797546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470452e1dd7fb203%3A0x61f11e6400d6d6c0!2sAvenida%20Poznan%2C%20Pozna%C5%84!5e0!3m2!1sen!2spl!4v1647316078486!5m2!1sen!2spl"
+        width="100%"
+        height="400"
+        style="border:0; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); padding: 0px;"
+        allowfullscreen=""
+        loading="lazy">
+</iframe>
+
+</div>
+<div>
+<div style="height: 40px;"></div>
+</div>
+
+<div class="rounded-rectangle" style="margin-left: 20px; margin-right: 20px">
+
+<footer style="padding: 10px;">
     <p>Reach Us:</p>
     <p>Galeria Avenida, Number 108A, Poznan, Poland</p>
     <p>Phone: +48 572 365 897</p>
     <p>Email: info@vclinic.com</p>
 </footer>
 
+</div>
 </body>
 </html>
